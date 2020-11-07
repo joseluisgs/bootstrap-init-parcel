@@ -21,7 +21,14 @@ Plantilla para crear proyectos web Bootstrap, HTML5/CSS3 usando Saas y temas pro
 
 ## Funcionamiento
 
-El funcionamieento es el siguiente:
+El funcionamiento es el siguiente. Mete tu código en la carpeta src y antes o durante su desarrolo:
+
+```bash
+  $npm install: instala las dependencias
+  $npm run dev: ejecuta la versión de desarrollo en el servidor integrado
+  $npm run build: realiza el empaquetamiento para producción
+  $npm run unbuild: elimina la versión de producción y cachés asociadas.
+```
 
 ## Autor
 

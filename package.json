@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "pro": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "unbuild": "rm -rf dist && rm -rf .cache"
   },
   "repository": {
     "type": "git",
