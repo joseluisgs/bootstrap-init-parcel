@@ -1,4 +1,4 @@
-# BOOTSTRAPT Init
+# BootStrapt Init
 
 Plantilla para crear proyectos web Bootstrap, HTML5/CSS3 usando Saas y temas propios siendo empaquetada con Parcel
 
@@ -26,8 +26,8 @@ El funcionamiento es el siguiente. Mete tu código en la carpeta src y antes o d
 ```bash
   $npm install: instala las dependencias
   $npm run dev: ejecuta la versión de desarrollo en el servidor integrado
-  $npm run build: realiza el empaquetamiento para producción
-  $npm run unbuild: elimina la versión de producción y cachés asociadas.
+  $npm run dist: realiza el empaquetamiento para producción
+  $npm run undist: elimina la versión de producción y cachés asociadas.
 ```
 
 ## Autor

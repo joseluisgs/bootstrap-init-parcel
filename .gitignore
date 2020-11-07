@@ -8,6 +8,7 @@ node_modules
 # Directorio dist y cache
 dist
 .cache
+public
 
 # Log files
 npm-debug.log*

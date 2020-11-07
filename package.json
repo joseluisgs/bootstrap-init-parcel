@@ -4,9 +4,9 @@
   "description": "Plantilla para crear proyectos web Bootstrap, HTML5/CSS3 usando Saas y temas propios siendo empaquetada con Parcel",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "unbuild": "rm -rf dist && rm -rf .cache"
+    "dev": "parcel src/*.html",
+    "dist": "parcel build src/*.html -d public --public-url ./",
+    "undist": "rm -rf dist && rm -rf .cache && rm -rf public"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,16 @@
   },
   "homepage": "https://github.com/joseluisgs/bootstrapt-init#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "b": "^2.0.1",
+    "bootstrap": "^4.5.3",
+    "j": "^1.0.0",
+    "jquery": "^3.5.1",
+    "js": "^0.1.0",
+    "popper.js": "^1.16.1"
   }
 }
