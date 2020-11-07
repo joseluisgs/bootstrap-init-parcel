@@ -5,7 +5,9 @@ node_modules
 .env.local
 .env.*.local
 
-
+# Directorio dist y cache
+dist
+.cache
 
 # Log files
 npm-debug.log*
